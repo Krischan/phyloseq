@@ -319,7 +319,7 @@ tip_glom = function(physeq, h=0.2, hcfun=agnes, ...){
 #' This method merges species that have the same taxonomy at a certain 
 #' taxonomic rank. 
 #' Its approach is analogous to \code{\link{tip_glom}}, but uses categorical data
-#' instead of a tree. In principal, other categorical data known for all taxa
+#' instead of a tree. In principle, other categorical data known for all taxa
 #' could also be used in place of taxonomy,
 #' but for the moment, this must be stored in the \code{taxonomyTable}
 #' of the data. Also, columns/ranks to the right of the rank chosen to use
